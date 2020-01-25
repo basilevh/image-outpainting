@@ -1,5 +1,7 @@
 # Image Outpainting using GANs
 
+![idea](idea.png=320x)
+
 This is some example code for my paper on [Image Outpainting and Harmonization using Generative Adversarial Networks
 ](https://arxiv.org/abs/1912.10960), which was made for the class Deep Learning for Computer Vision by Prof. Peter Belhumeur at Columbia University. Essentially, we extrapolate 128x128 RGB images into an 192x192 output by attempting to draw a reasonable hallucination of what could reside beyond every border of the input photo. The architecture is inspired by [Context Encoders: Feature Learning by Inpainting
 ](https://arxiv.org/abs/1604.07379). Part of my work explores [SinGAN](https://arxiv.org/abs/1905.01164) for style harmonization, but this post-processing step was done mostly manually so it is not included in this repository for now.
@@ -8,7 +10,11 @@ This is some example code for my paper on [Image Outpainting and Harmonization u
 
 Both figures shown here are evaluated either on the test or validation sets.
 
+Natural photography:
+
 ![Places365-Standard](demo_places.png "Places365-Standard")
+
+Artwork:
 
 ![WikiArt](demo_wikiart.png "WikiArt")
 
