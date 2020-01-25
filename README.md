@@ -1,6 +1,6 @@
 # Image Outpainting using GANs
 
-![idea](idea.png =320x)
+<img src="idea.png" alt="Idea" width="320"/>
 
 This is some example code for my paper on [Image Outpainting and Harmonization using Generative Adversarial Networks
 ](https://arxiv.org/abs/1912.10960), which was made for the class Deep Learning for Computer Vision by Prof. Peter Belhumeur at Columbia University. Essentially, we extrapolate 128x128 RGB images into an 192x192 output by attempting to draw a reasonable hallucination of what could reside beyond every border of the input photo. The architecture is inspired by [Context Encoders: Feature Learning by Inpainting
