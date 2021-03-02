@@ -9,6 +9,7 @@ python forward.py input.jpg output.jpg
 
 if __name__ == '__main__':
 
+    import matplotlib.pyplot as plt
     import sys
     from outpainting import *
 
