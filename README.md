@@ -26,6 +26,12 @@ Artwork:
 
 3. Run `forward.py input.jpg output.jpg` for evaluation of custom images. This script uses `generator_final.pt` to load network weights and accepts arbitrary image resolutions.
 
+## Pretrained models
+
+* [G_art.pt](https://drive.google.com/file/d/1Me6_zYGglb1vKkRzh6AT0CxAu4B99kGx/view?usp=sharing): Artistic
+* [G_nat.pt](https://drive.google.com/file/d/1sqbJO6AuuK_VsJnZ6kDR9cOJ0qXkpOvg/view?usp=sharing): Natural
+* [G_rec.pt](https://drive.google.com/file/d/1A1odFiU6CjMl5wU7KBWq3tuiSpOS_VFR/view?usp=sharing): Reconstruction loss only (no adversarial loss)
+
 ## Known issues
 
 * The adversarial loss weight follows a specific schedule in order to prevent the generator from collapsing to a simple autoencoder, or reconstruction loss minimizer. However, making this term too important results in rather glitched but nonetheless sharper visuals. Room for improvement therefore exists in terms of finding a better balance.
